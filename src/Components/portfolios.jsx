@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Col, Row, Nav,  Tab } from "react-bootstrap";
 import Masonry from "react-responsive-masonry"
 import SinglePortfolio from "../SingleFeatures/SinglePortfolio";
-import portfolioImg_01 from "../assets/images/portfolio/1.png";
-import portfolioImg_02 from "../assets/images/portfolio/2.png";
+import portfolioImg_01 from "../assets/images/portfolio/1.jpeg";
+import portfolioImg_02 from "../assets/images/portfolio/2.jpeg";
 import portfolioImg_03 from "../assets/images/portfolio/3.png";
 import portfolioImg_04 from "../assets/images/portfolio/4.png";
 import portfolioImg_05 from "../assets/images/portfolio/5.jpg";
@@ -45,7 +45,6 @@ export default function Portfolios() {
                     <SectionTitle
                         title="PORTFOLIO"
                         subTitle="My Masterpiece Collection"
-                        desc="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia"
                     />
                     <Tab.Container defaultActiveKey="all">
                         <Row>
@@ -55,17 +54,15 @@ export default function Portfolios() {
                                         <Nav.Link eventKey="all">ALL</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="ux_ui">UI / UX</Nav.Link>
+                                        <Nav.Link eventKey="ux_ui">React.js</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="web_development">WEB DEVELOPMENT</Nav.Link>
+                                        <Nav.Link eventKey="web_development">Wordpress Custom CSS</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link eventKey="web_research">WEB RESEARCH</Nav.Link>
+                                        <Nav.Link eventKey="web_research">DBs / Web APIs</Nav.Link>
                                     </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="marketing">MARKETING</Nav.Link>
-                                    </Nav.Item>
+                                   
                                     <div className="pofo-line"></div>
                                 </Nav>
                             </div>
@@ -74,58 +71,45 @@ export default function Portfolios() {
                                     <Tab.Pane eventKey="all">
                                     <SRLWrapper> 
                                             <Masonry columnsCount={portfolioColumns}>
-                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Portfolio Title One" />
-                                             <SinglePortfolio portfolioImg={portfolioImg_03} title="Portfolio Title Two" />
-                                             <SinglePortfolio portfolioImg={portfolioImg_04} title="Portfolio Title Three" />
-                                             <SinglePortfolio portfolioImg={portfolioImg_02} title="Portfolio Title Four" />
-                                             <SinglePortfolio portfolioImg={portfolioImg_06} title="Portfolio Title Five" />
+                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Water My Plant" git="https://github.com/Water-my-plant1/front-end" prod="https://front-end-mauve-rho.vercel.app/"/>
+                                            <SinglePortfolio portfolioImg={portfolioImg_02} title="Crypto Tracker w/ Dark Mode" git="https://github.com/rivyyriv/dark-mode/commit/cf25c432771a27e530241534ee56382bbbe47d8d" prod="https://dark-mode-lyart.vercel.app/"/>
+                                            <SinglePortfolio portfolioImg={portfolioImg_03} title="SURFERSNEXUS" git="" prod="https://surfersnexus.com/"/>
+                                            
                                         </Masonry>
                                      </SRLWrapper>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="ux_ui">
                                         <SRLWrapper> 
                                             <Masonry columnsCount={portfolioColumns}>
-                                            <SinglePortfolio portfolioImg={portfolioImg_03} title="Portfolio Title Six" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Portfolio Title Seven" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_04} title="Portfolio Title Eight" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_05} title="Portfolio Title Nine" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_06} title="Portfolio Title Ten" />
+                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Water My Plant" git="https://github.com/Water-my-plant1/front-end" prod="https://front-end-mauve-rho.vercel.app/"/>
+                                            <SinglePortfolio portfolioImg={portfolioImg_02} title="Crypto Tracker w/ Dark Mode" git="https://github.com/rivyyriv/dark-mode/commit/cf25c432771a27e530241534ee56382bbbe47d8d" prod="https://dark-mode-lyart.vercel.app/"/>
+
+
+
                                             </Masonry>
                                         </SRLWrapper>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="web_development">
                                         <SRLWrapper>
                                             <Masonry columnsCount={portfolioColumns}>
-                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Portfolio Title One" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_03} title="Portfolio Title Three" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_04} title="Portfolio Title Four" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_02} title="Portfolio Title Five" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_06} title="Portfolio Title Six" />
+                                        
+                                            <SinglePortfolio portfolioImg={portfolioImg_03} title="SURFERSNEXUS" git="" prod="https://surfersnexus.com/"/>
+
+
+
                                             </Masonry>
                                         </SRLWrapper>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="web_research">
                                         <SRLWrapper>
                                         <Masonry columnsCount={portfolioColumns}>
-                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Portfolio Title One" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_03} title="Portfolio Title Three" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_04} title="Portfolio Title Four" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_02} title="Portfolio Title Five" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_06} title="Portfolio Title Six" />
+                                   
+
+
                                         </Masonry>
                                         </SRLWrapper>
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="marketing">
-                                        <SRLWrapper>
-                                        <Masonry columnsCount={portfolioColumns}>
-                                            <SinglePortfolio portfolioImg={portfolioImg_01} title="Portfolio Title One" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_03} title="Portfolio Title Three" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_04} title="Portfolio Title Four" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_02} title="Portfolio Title Five" />
-                                            <SinglePortfolio portfolioImg={portfolioImg_06} title="Portfolio Title Six" />
-                                        </Masonry>
-                                        </SRLWrapper>
-                                    </Tab.Pane>
+                
                                 </Tab.Content>
                             </Col>
                         </Row>

@@ -61,7 +61,7 @@ export default function slider() {
                                             <div className="dash"></div>
                                             <div className="social-links mb-40">
                                                 <a href="https://www.linkedin.com/in/river-smith-945394133/">LinkedIn</a> | 
-                                                <a href="https://www.github/rivyyriv.com">GitHub</a>
+                                                <a href="https://github.com/rivyyriv">GitHub</a>
                                             </div>
                                             <div className="slider-cta">
                                                 <Link 
@@ -102,48 +102,42 @@ export default function slider() {
                                 </div>
                             </div>
                         </div>
-                        
                         <div className="slide-item">
                             <div className="container pt-130 pl-xl-0 px-0">
                                 <div className="row m-0">
                                     <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5">
                                         <div className="slider-left">
                                             <div className="name">
-                                                <h1>Jack <br /> Harper<span className="pc">.</span></h1>
+                                                <h1>River <br /> Smith<span className="pc">.</span></h1>
                                             </div>
                                             <div className="dash"></div>
                                             <div className="social-links mb-40">
-                                                <a href="https://www.instagram.com/tortoiz">Instagram</a> | <a
-                                                    href="https://www.linkedin.com/in/shailendra-bhardwaj-4539611a0/">LinkedIn</a> <br />
-                                                <a href="https://behance.net/tortoizthemes">Behance</a> | <a
-                                                    href="https://dribbble.com/TortoizTeam">Dribbble</a>
+                                                <a href="https://www.linkedin.com/in/river-smith-945394133/">LinkedIn</a> | 
+                                                <a href="https://github.com/rivyyriv">GitHub</a>
                                             </div>
                                             <div className="slider-cta">
-                                                <Link
-                                                    to="contact"
-                                                    className="ct-btn"
-                                                    smooth={true}
-                                                    duration={2000}
-                                                    activeClass="active"
-                                                    spy={false}
-                                                    offset={5}>Contact me</Link>
+                                                <Link 
+                                                to="contact" 
+                                                className="ct-btn" 
+                                                smooth={true} 
+                                                duration={2000} 
+                                                activeClass="active" 
+                                                spy={false} 
+                                                offset={5}>Contact me</Link>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-7 pl-0">
                                         <div className="profile-pic">
-                                            <img className="img-fluid" src={sliderImg01} alt="jack harper" />
+                                            <img className="img-fluid" src={sliderImg01} alt="jack harper"/>
                                         </div>
                                     </div>
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 slider-area-intro">
                                         <div className="into-area">
                                             <div className="section-title">
                                                 <h3 className="section-name pc">INTRODUCTION</h3>
-                                                <h2>UI/UX Designer,<br />Full Stack Web <br /> Developer</h2>
-                                                <p className="pr-20">
-                                                    Lorem ipsum dolor sit amet, consectetur adip
-                                                    cing elit, sed do eiusmod tempor incidid
-                                                    unt ut labore et dolorepore magna aliqua.</p>
+                                                <h2>Full Stack Web <br /> Developer</h2>
+                                                <p className="pr-20">I enjoy using code to solve real problems! I thrive in environments that require constant learning and adapting.</p>
                                             </div>
                                             <div className="intro-button">
                                                 <Link
@@ -160,6 +154,7 @@ export default function slider() {
                                 </div>
                             </div>
                         </div>
+                      
                     </Slider>
                 </div>
             </div>

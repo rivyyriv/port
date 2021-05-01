@@ -9,7 +9,6 @@ export default function footer() {
     return (
         <div className="footer-area">
             <div className="copyright-text text-center">
-                <p className="pt-20"><i className="fas fa-copyright mr-10"></i>Copyright - Tortoiz | All Rights Reserved</p>
             </div>
             <div className="back-to-top">
                 <a href="#" onClick={goHome}><i><FaAngleUp/></i></a>

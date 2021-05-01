@@ -1,10 +1,7 @@
 import React from 'react';
-import servicIcon_01 from "../assets/images/icons/pen-yellow.png";
 import servicIcon_02 from "../assets/images/icons/code.png";
-import servicIcon_03 from "../assets/images/icons/search-yellow.png";
-import servicIcon_04 from "../assets/images/icons/marketing.png";
+
 import servicIcon_05 from "../assets/images/icons/code-white.png";
-import servicIcon_06 from "../assets/images/icons/marketing-white.png";
 import SingleCountdown from "../SingleFeatures/SIngleCountdown";
 import SectionTitle from "./section_title";
 export default function Services() {
@@ -50,8 +47,8 @@ export default function Services() {
                                 <img className="d-none" src={servicIcon_02} alt="design" />
                             </div>
                             <div className="skill-project">
-                                <h4 className="mb-3">Web Research</h4>
-                                <p>450 projects</p>
+                                <h4 className="mb-3">Back-End</h4>
+                                <p>Node.js, Express.js </p>
                             </div>
                         </div>
                     </div>
@@ -62,8 +59,8 @@ export default function Services() {
                                 <img className="d-none" src={servicIcon_02} alt="design" />
                             </div>
                             <div className="skill-project">
-                                <h4 className="mb-3">Marketing</h4>
-                                <p>331 projects</p>
+                                <h4 className="mb-3">RDBMS</h4>
+                                <p>Sqlite(dev), Postgresql</p>
                             </div>
                         </div>
                     </div>
@@ -72,10 +69,11 @@ export default function Services() {
             <div className="counter-area mt-45">
                 <div className="container">
                     <div className="row">
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={9} duration={5}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Satisfied Customers" start={0} end={200} duration={100}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Design Items" start={0} end={769} duration={100}/>
-                        <SingleCountdown title="Clients Served" start={0} end={124} duration={100}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={3} duration={5}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={2} duration={5}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={1} duration={5}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={1} duration={5}/>
+                        
                     </div>
                 </div>
             </div>
