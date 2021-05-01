@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
-import BlogDetails from "./Pages/BlogDetails";
 import FourZeroFour from "./Pages/FourZeroFour";
 function App(props) {
   return (
@@ -18,7 +17,6 @@ function App(props) {
           <Route exact exact path="/">
             <Home />
           </Route>
-          <Route exact path="/blog_details/:Id" component={BlogDetails} />
           <Route path="*">
             <FourZeroFour/>
           </Route>

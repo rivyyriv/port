@@ -27,12 +27,7 @@ export default function HeaderTwo() {
                                     <Nav className="ml-auto align-items-center">
                                         <ReactLink to="/" className="nav-link">Home</ReactLink>
                                         <Nav.Link href="/#portfolio">Portfolios</Nav.Link>
-                                        <NavDropdown title={navDropdownTitle}
-                                            id="collasible-nav-dropdown"
-                                        >
-                                            <NavDropdown.Item href="/#blog">Latest Posts</NavDropdown.Item>
-                                            <NavDropdown.Item href="/blog_details">Blog Details</NavDropdown.Item>
-                                        </NavDropdown>
+                            
                                         <Nav.Link href="/#contact">Contact</Nav.Link>
                                         <ul className="mb-0 menu-social pl-15">
                                             <li className="list-inline-item menu-border">

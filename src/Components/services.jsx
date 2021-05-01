@@ -14,7 +14,7 @@ export default function Services() {
                 <SectionTitle
                     title="SERVICES"
                     subTitle="What I Am Great At"
-                    desc="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia"
+                    desc="I am an Experienced Web Developer with a demonstrated history of working in JavaScript frameworks (React, Angular) to build elegant front end interaction through components. I also have experience in building Restful API's and servers through Node.js to provide the full Web App solution."
                 />
             </div>
             <div className="container">
@@ -22,12 +22,12 @@ export default function Services() {
                     <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
                         <div className="project-card text-center bgp">
                             <div className="icon mb-20">
-                                <img src={servicIcon_01} alt="design" />
+                                <img src={servicIcon_05} alt="design" />
                                 <img className="d-none" src={servicIcon_02} alt="design" />
                             </div>
                             <div className="skill-project">
-                                <h4 className="mb-3">UI/UX Design</h4>
-                                <p>129 projects</p>
+                                <h4 className="mb-3">Front-End</h4>
+                                <p>JavaScript, HTML, CSS</p>
                             </div>
                         </div>
                     </div>
@@ -38,16 +38,16 @@ export default function Services() {
                                 <img className="d-none" src={servicIcon_02} alt="design" />
                             </div>
                             <div className="skill-project">
-                                <h4 className="mb-3">Web Development</h4>
-                                <p>221 projects</p>
+                                <h4 className="mb-3">Front-End FrameWorks</h4>
+                                <p>React, Angular, Material-UI, BootStrap/ReactStrap, </p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
                         <div className="project-card text-center bgp">
                             <div className="icon mb-20">
-                                <img src={servicIcon_03} alt="design" />
-                                <img className="d-none" src={servicIcon_03} alt="design" />
+                                 <img src={servicIcon_05} alt="design" />
+                                <img className="d-none" src={servicIcon_02} alt="design" />
                             </div>
                             <div className="skill-project">
                                 <h4 className="mb-3">Web Research</h4>
@@ -58,8 +58,8 @@ export default function Services() {
                     <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
                         <div className="project-card text-center bgp">
                             <div className="icon mb-20">
-                                <img src={servicIcon_06} alt="design" />
-                                <img className="d-none" src={servicIcon_04} alt="design" />
+                                <img src={servicIcon_05} alt="design" />
+                                <img className="d-none" src={servicIcon_02} alt="design" />
                             </div>
                             <div className="skill-project">
                                 <h4 className="mb-3">Marketing</h4>

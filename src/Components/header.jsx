@@ -28,22 +28,8 @@ export default function Header() {
                                     <Nav className="ml-auto align-items-center">
                                         <ReactLink to="/" className="nav-link">Home</ReactLink>
                                         <Link className="nav-link" to="portfolio" smooth={true} duration={2000} activeClass="active" spy={false} offset={5}> Portfolios </Link>
-                                        <NavDropdown 
-                                        title={navDropdownTitle} 
-                                        id="basic-nav-dropdown"
-                                        >
-                                        <Link className="dropdown-item" to="blog" smooth={true} duration={2000} activeClass="active" spy={false} offset={5}> Latest Posts </Link>
-                                        </NavDropdown>
+                                     
                                         <Link className="nav-link" to="contact" smooth={true} duration={2000} activeClass="active" spy={false} offset={5}> Contact </Link>
-                                        <ul className="mb-0 menu-social pl-15">
-                                            <li className="list-inline-item menu-border">
-                                                <a href="#"><i><FaSkype /></i></a>
-                                            </li>
-                                            <li className="list-inline-item">
-                                                <a href="#"><i><FaFacebookF /></i></a>
-                                            </li>
-                                            <li className="list-inline-item"><a href="#"><i><FaTwitter /></i></a></li>
-                                        </ul>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
