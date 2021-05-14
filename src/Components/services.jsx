@@ -25,8 +25,10 @@ export default function Services() {
                             <div className="skill-project">
                                 <h4 className="mb-3">Front-End</h4>
                                 <p>JavaScript, HTML, CSS</p>
+                                
                             </div>
                         </div>
+                        
                     </div>
                     <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
                         <div className="project-card text-center bgp">
@@ -69,10 +71,10 @@ export default function Services() {
             <div className="counter-area mt-45">
                 <div className="container">
                     <div className="row">
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={3} duration={5}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={2} duration={5}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={1} duration={5}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={1} duration={5}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Front-End Years of Experience" start={0} end={4} duration={3}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="React.js Years of Experience" start={0} end={2} duration={3}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Node.js Years of Experience" start={0} end={1} duration={1}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="RDBMS Years of Experience" start={0} end={1} duration={1}/>
                         
                     </div>
                 </div>

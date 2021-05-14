@@ -71,9 +71,12 @@ export default function Portfolios() {
                                     <Tab.Pane eventKey="all">
                                     <SRLWrapper> 
                                             <Masonry columnsCount={portfolioColumns}>
+                                            <SinglePortfolio portfolioImg="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" title="Instagram-Clone" git="https://github.com/rivyyriv/instagram-clone" prod="https://instagram-clone-d1dbc.web.app/"/>
                                             <SinglePortfolio portfolioImg={portfolioImg_01} title="Water My Plant" git="https://github.com/Water-my-plant1/front-end" prod="https://front-end-mauve-rho.vercel.app/"/>
                                             <SinglePortfolio portfolioImg={portfolioImg_02} title="Crypto Tracker w/ Dark Mode" git="https://github.com/rivyyriv/dark-mode/commit/cf25c432771a27e530241534ee56382bbbe47d8d" prod="https://dark-mode-lyart.vercel.app/"/>
                                             <SinglePortfolio portfolioImg={portfolioImg_03} title="SURFERSNEXUS" git="" prod="https://surfersnexus.com/"/>
+                                            <SinglePortfolio portfolioImg='https://luxefilmography.com/wp-content/uploads/sites/7801/2019/05/Wedding-Videography-Equipment-scaled.jpeg' title="Videography Website"/>
+
                                             
                                         </Masonry>
                                      </SRLWrapper>
@@ -81,6 +84,7 @@ export default function Portfolios() {
                                     <Tab.Pane eventKey="ux_ui">
                                         <SRLWrapper> 
                                             <Masonry columnsCount={portfolioColumns}>
+                                            <SinglePortfolio portfolioImg="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" title="Instagram-Clone" git="https://github.com/rivyyriv/instagram-clone" prod="https://instagram-clone-d1dbc.web.app/"/>
                                             <SinglePortfolio portfolioImg={portfolioImg_01} title="Water My Plant" git="https://github.com/Water-my-plant1/front-end" prod="https://front-end-mauve-rho.vercel.app/"/>
                                             <SinglePortfolio portfolioImg={portfolioImg_02} title="Crypto Tracker w/ Dark Mode" git="https://github.com/rivyyriv/dark-mode/commit/cf25c432771a27e530241534ee56382bbbe47d8d" prod="https://dark-mode-lyart.vercel.app/"/>
 
@@ -94,6 +98,7 @@ export default function Portfolios() {
                                             <Masonry columnsCount={portfolioColumns}>
                                         
                                             <SinglePortfolio portfolioImg={portfolioImg_03} title="SURFERSNEXUS" git="" prod="https://surfersnexus.com/"/>
+                                            <SinglePortfolio portfolioImg='https://luxefilmography.com/wp-content/uploads/sites/7801/2019/05/Wedding-Videography-Equipment-scaled.jpeg' title="Videography Website"/>
 
 
 
